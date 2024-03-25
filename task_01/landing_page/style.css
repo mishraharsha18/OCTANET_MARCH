@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root{
+    --primary_dark:#222831;
+    --secondary_dark:#393e46;
+    --primary_light:#f96d00;
+    --secondary_light:#f2f2f2;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--primary_dark);
+    font-family: "Montserrat", sans-serif;
+}
+
+/* --------------------header section---------------- */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+    padding: 1rem 5rem;
+    flex-wrap: wrap;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+}
+.logo p{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    color: var(--primary_light);
+    padding-left: 1rem;
+}
+.logo p span{
+    color: var(--secondary_light);
+}
+.logo a{
+    text-decoration: none;
+}
+
+.menu li{
+    display: inline;
+    list-style-type: none;
+    padding: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+li a{
+    text-decoration: none;
+    color: var(--secondary_light);
+    margin: 0  .75rem;
+    padding-bottom: 2px;
+}
+
+.btn{
+    background-color: var(--primary_light);
+    padding:  .5rem 1rem;
+    margin: auto 1rem;
+    border: 2px solid var(--primary_light);
+    color: var(--secondary_dark);
+    cursor: pointer;
+    transition: all .3s ease;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+#home{
+    border-bottom:2px solid var(--primary_light);
+}
+li a:active{
+    color: var(--primary_light);
+}
+li a:hover{
+    border-bottom:2px solid var(--primary_light);
+    
+}
+.nav_btn .btn:hover{
+    background-color: var(--primary_dark);
+    color: var(--primary_light);
+}
+.btn:hover{
+    background-color: var(--primary_dark);
+    color: var(--primary_light);
+}
+/* ----------------hero01--------------------- */
+
+.hero01{
+    display: flex;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    text-align:start;
+    flex-wrap: wrap;
+    padding: 0 100px;
+}
+.content{
+    font-family: "Montserrat", sans-serif;
+    margin-top: -200px;
+
+}
+.image{
+    margin-top: -120px;
+}
+h4{
+    color: var(--secondary_light);
+    font-size: 20px;
+}
+h1{
+    color: var(--primary_light);
+    font-size: 50px;
+}
+#hero01_p{
+    color: var(--secondary_light);
+    margin-top: -20px;
+}
+.content .btn {
+    background-color: var(--primary_dark);
+    color: var(--primary_light);
+    margin-left: 3px;
+}
+.content .btn:hover{
+    background-color: var(--primary_light);
+    color: var(--primary_dark);
+}
+/* -------------------hero02------------------------- */
+.hero02{
+    width: auto;
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 5%;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    margin-top: -5%;
+}
+.numbers{
+    color: var(--secondary_light);
+    /* border: 1px solid var(--secondary_light); */
+    border-radius: 30px;
+    font-family: "Montserrat", sans-serif;
+    padding: 0 40px;
+    text-align: center;
+
+}
+.numbers h1{
+    color: var(--secondary_light);
+}
+.numbers p{
+    color: var(--primary_light);
+    margin-top: -50%;
+    margin-bottom: 40px;
+}
+
+/* ---------------------internship_head-------------------- */
+.internship_head{
+    margin: 10% 0;
+    font-size: 2px;
+    text-align: center;
+}
+.internship_head h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    color: var(--secondary_light);
+}
+
+/* --------------------boxes--------------------- */
+
+svg{
+    width: 50%;
+    height: auto;
+    color: var(--primary_light);
+}
+#java{
+    width: 40%;
+    height: 35%;
+}
+#cloud{
+    height: 35%;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 80px;
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+    row-gap: 25px;
+}
+
+/* --------------------cards--------------------- */
+.card{
+    display: flex;
+    flex-direction: column;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 400px;
+    border: 2px solid var(--secondary_dark);
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px var(--secondary_dark);
+}
+.card p{
+    padding: 0 10px;
+    text-align: center;
+    color: var(--secondary_light);
+}
+.card:hover{
+    border: 2px solid var(--primary_light);
+    box-shadow: 2px 2px 10px var(--primary_light);
+    cursor: pointer;
+    transition:  all .5s ease-in-out;
+    transform: scale(1.05);
+}
+
+/* ---------------contact------------------- */
+
+.contact{
+    width: 60%;
+    height: auto;
+    margin: 10% auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    border: 1px solid var(--secondary_dark);
+    box-shadow: 2px 2px 5px var(--secondary_dark);
+
+}
+input{
+    display: inline-block;
+    width: 90%;
+    padding: 10px;
+    margin: 15px;
+    background-color: transparent;
+    border: 1px solid var(--secondary_dark);
+    color: var(--secondary_light);
+    font-size: 18px;
+}
+input:hover{
+    border: 1px solid var(--primary_light);
+    cursor: pointer;
+
+
+}
+#send_btn{
+    display: block;
+}
+.contact h3{
+    color: var(--primary_light);
+    
+}
+.contact p{
+    color: var(--secondary_light);
+}
+#send_btn{
+    background-color: var(--primary_light);
+    padding:  .5rem 1rem;
+    margin: 15px 1rem;
+    border: 2px solid var(--primary_light);
+    color: var(--secondary_dark);
+    cursor: pointer;
+    transition: all .3s ease;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+#send_btn:hover{
+    background-color: var(--primary_dark);
+    color: var(--primary_light);
+
+}
+.head h3{
+    text-align:center;
+    font-size: 30px;  
+}
+/* ------------------footer--------------------- */
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80px;
+    border-top: var(--secondary_dark) solid 1px;
+    color: var(--secondary_light);
+}
+footer a{
+    text-decoration: none;
+    color: var(--secondary_light);
+}
+
+@media only screen and (min-width:1032px) and (max-width:1428px){
+    
+    
+}
+
+
+
+

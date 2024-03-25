@@ -1,0 +1,219 @@
+@media only screen and (min-width:1000px) and (max-width:1428px){
+    /* ------------header---------------- */
+    nav{
+        margin: 0.5rem 0.2rem;
+        padding: 0.5rem 0.8rem;
+    }
+    .menu li{
+        padding: 2px;
+    }
+    li a{
+        margin: 0  .50rem;
+    }
+    .btn{
+        padding:  .5rem 0.9rem;
+        margin: auto 0.5rem;
+        font-size: 12px;
+    }
+    nav img{
+        width: 40px;
+        height: auto;
+        margin-top: 6px;
+    }
+    /* -------------hero01------------- */
+    .hero01{
+        height: 100vh;
+        padding: 0 40px;
+    }
+    .content{
+        margin-top: -16%;
+    }
+    .image{
+        margin-top: -7%;
+        width: 45%;
+    }
+    h4{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 35px;
+    }
+    #hero01_p{
+        margin-top: -20px;
+    }
+    .content .btn {
+        margin-left: 3px;
+    }
+    /* -------------------hero02------------------------- */
+.hero02{
+    height: 15vh;
+    padding: 0 5%;
+    row-gap: 10px;
+}
+.numbers{
+    padding: 0 40px;
+}
+.numbers p{
+    margin-top: -20px;
+}
+/* ---------------------internship_head-------------------- */
+.internship_head{
+    margin: 10% 0;
+    font-size: 2px;
+}
+.internship_head h1{
+    font-size: 28px;
+}
+/* --------------------boxes--------------------- */
+.boxes{
+    padding: 0 80px;
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+/* --------------------cards--------------------- */
+.card{
+    flex-direction: column;
+    column-gap: 20px;
+    width: 300px;
+    height: 400px;
+}
+.card p{
+    padding: 0 20px;
+    text-align: center;
+}
+.card:hover{
+    border: 2px solid var(--primary_light);
+    box-shadow: 2px 2px 10px var(--primary_light);
+    cursor: pointer;
+}
+.card h4{
+    font-size: 22px;
+}
+
+}
+/* /////////////////////////////////////////////////////////////////////// */
+
+@media only screen and (min-width:501px) and (max-width:1000px){
+    /* ------------header---------------- */
+    nav{
+        margin: 1rem 0.1rem;
+        padding: 0.8rem 0.2rem;
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu{
+        margin: 15px 0;
+        margin-bottom: 25px;
+    }
+    .menu li{
+        padding: 2px;
+
+    }
+    li a{
+        margin: 0px  2px;
+        font-size: 12px;
+    }
+    .btn{
+        padding:  .5rem 0.9rem;
+        margin: auto 0.5rem;
+        font-size: 12px;
+    }
+    nav img{
+        width: 40px;
+        height: auto;
+        margin-top: 6px;
+    }
+    /* -------------hero01------------- */
+    .hero01{
+        height: auto;
+        padding: 0 40px;
+        flex-direction: column;
+    }
+    .content{
+        height: 50vh;
+        margin-top: 10vh;
+    }
+    .image{
+        margin-top: -200px;
+        width: 80vw;
+    }
+    h4{
+        font-size: 12px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    #hero01_p{
+        margin-top: -20px;
+        font-size: 14px;
+    }
+    .content .btn {
+        margin-left: 3px;
+    }
+    /* -------------------hero02------------------------- */
+.hero02{
+    height: 15vh;
+    padding: 0 5%;
+    row-gap: 10px;
+}
+.numbers{
+    padding: 0 40px;
+}
+.numbers p{
+    margin-top: -20px;
+}
+/* ---------------------internship_head-------------------- */
+.internship_head{
+    height: 10vh;
+    margin-bottom: 0;
+    font-size: 2px;
+}
+.internship_head h1{
+    font-size: 15px;
+    margin-top: 200px;
+}
+/* --------------------boxes--------------------- */
+.boxes{
+    padding: 0 80px;
+    margin-bottom: 10%;
+    flex-wrap: wrap;
+    row-gap: 60px;
+}
+/* --------------------cards--------------------- */
+.card{
+    flex-direction: column;
+    column-gap: 20px;
+    width: 300px;
+    height: 400px;
+}
+.card p{
+    padding: 0 20px;
+    text-align: center;
+}
+.card:hover{
+    border: 2px solid var(--primary_light);
+    box-shadow: 2px 2px 10px var(--primary_light);
+    cursor: pointer;
+}
+.card h4{
+    font-size: 22px;
+}
+/* -------------------contact------------------- */
+.contact h3{
+    font-size: 25px;
+}
+.contact p{
+    font-size: 13px;   
+}
+input{
+    width:80%;
+}
+/* ------------------footer--------------------- */
+footer a{
+    font-size: 8px;
+}
+
+
+    
+}
